@@ -1,0 +1,30 @@
+body {
+	margin:0;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:400;
+	font-size:14px;
+}
+.username-wrapper {
+	position:relative;
+	padding-bottom: 20px;
+}
+.user-icon {
+	position: absolute;
+    top: 15px;
+    right: 14px;
+}
+input[type="button"] {
+	width:100px;
+	height:40px;
+	/* background-image: linear-gradient(#82b1ac, #6ba19c); */
+	border-radius:4px;
+	border:0;
+	cursor:pointer;
+	font-size:16px;
+	font-weight:600;
+	color:#d31717;
+	/* text-shadow: 0 2px 2px #486b67; */
+}
+input[type="button"]:hover {
+	/* background-image: linear-gradient(#3c857f, #17514c); */
+}

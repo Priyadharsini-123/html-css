@@ -1,0 +1,111 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<title>Yoga Class</title>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/master.css" />
+	</head>
+	<body>
+		<!-- Register page start -->
+		<div class="login-wrapper registration-wrapper">
+			<header class="login-header">
+				<img src="images/logo.png" alt="Yoga class" />
+			</header>
+			<article class="login-article registration-article">
+				<h1>Registration <a href="#"><img src="images/login-close-icon.png" /></a></h1>
+				<form class="login-form" action="#" method="post">
+					<div class="input-wrapper">
+						<label>First Name<span>*</span></label>
+						<input type="text" />
+					</div>
+					<div class="input-wrapper">
+						<label>Last Name<span>*</span></label>
+						<input type="text" />
+					</div>
+					<div class="input-wrapper">
+						<label>Password<span>*</span></label>
+						<input type="password" />
+					</div>
+					<div class="input-wrapper">
+						<label>Confirm Password<span>*</span></label>
+						<input type="password" />
+					</div>
+					<div class="input-wrapper">
+						<label>Date Of Birth<span>*</span></label>
+						<div class="date-of-birth-wrapper">
+							<div class="dob-left">
+								<input type="text" placeholder="DD" />
+								<input type="text" placeholder="MM" />
+								<input type="text" placeholder="YYYY" />
+							</div>
+							<div class="dob-right">
+								<label>
+									Gender
+								</label>
+								<select>
+									<option>Male</option>
+									<option>Female</option>
+								</select>
+							</div>
+						</div>
+					</div>
+					<div class="input-wrapper">
+						<label>Mobile/Cell No<span>*</span></label>
+						<input type="tel" />
+					</div>
+					<div class="input-wrapper">
+						<label>Email<span>*</span></label>
+						<input type="email" />
+					</div>
+					<div class="input-wrapper">
+						<label>Confirmation Email<span>*</span></label>
+						<input type="email" />
+					</div>
+					<div class="input-wrapper">
+						<label class="address">Address<span>*</span></label>
+						<textarea></textarea>
+					</div>
+					<div class="input-second-wrapper">
+						<div class="isw-inner">
+							<div class="isw-wrapper">
+								<label>City<span>*</span></label>
+								<input type="text" />
+							</div>
+							<div class="isw-wrapper">
+								<label>State<span>*</span></label>
+								<input type="text" />
+							</div>
+						</div>
+						<div class="isw-inner">
+							<div class="isw-wrapper">
+								<label>Zip/Postal code<span>*</span></label>
+								<input type="text" />
+							</div>
+						</div>
+						<div class="isw-inner">
+							<div class="isw-wrapper">
+								<label>Country<span>*</span></label>
+								<input type="text" />
+							</div>
+						</div>
+						<div class="isw-inner">
+							<div class="isw-wrapper terms-isw-wrapper">
+								<input type="checkbox" />
+								<label class="terms">Agree to terms and conditions</label>
+							</div>
+						</div>
+						<div class="isw-inner">
+							<div class="isw-wrapper">
+								<input type="button" value="Sign Up" />
+							</div>
+						</div>
+					</div>
+					<p>by clicking Sign Up, you have read and agree to the www.company.com <span><a href="#">Terms and conditions</a>  and <a href="#">privacy policy</a></span></p>
+				</form>	
+			</article>
+		</div>
+		<!-- Register page end -->
+	</body>
+</html>

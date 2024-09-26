@@ -1,0 +1,49 @@
+body {
+	margin:0;
+	font-family: 'Fira Sans', sans-serif;
+	font-weight:400;
+	font-size:14px;
+}
+h1,h2,h3,h4,h5,h6,ul,li,p,form,figure,input[type="checkbox"] {
+	margin:0;
+	padding:0;
+}
+html,body {
+	height:100%;
+}
+
+* {
+	box-sizing:border-box;
+}
+.navigation {
+	background-color:#e2ede8;
+}
+.navigation ul {
+	display:flex;
+	grid-gap: 20px;
+	justify-content: flex-end;
+}
+.navigation ul li {
+	list-style:none;
+}
+.navigation ul li a {
+	color:#51605e;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family: 'Baloo Bhai 2', cursive;
+	font-weight:700;
+	font-size:20px;
+	padding:10px 25px;
+	display: inline-block;
+}
+.navigation ul li a:hover, .navigation ul li a.active {
+	background-color:#c7d9d5;
+}
+.main-logo {
+	position: absolute;
+    top: -2px;
+    left: 137px;
+}
+.logo-relative {
+	position:relative;
+}
